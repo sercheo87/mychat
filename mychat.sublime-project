@@ -4,6 +4,14 @@
 		{
 			"follow_symlinks": true,
 			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\projects\\advanced-chat.git"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\projects\\chatNodeJSSocketIO.git"
 		}
 	]
 }
