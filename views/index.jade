@@ -1,0 +1,64 @@
+extends layout
+
+block content
+    .page-header
+        .btn-toolbar
+            button.btn.btn-default#btAddUser(type='button')
+              i.fa.fa-plus-square
+              | Add User
+
+    .row
+        .col-md-6
+            .panel.panel-default
+                .panel-heading
+                        h3.panel-title Messages
+                .panel-body
+                    p demo
+
+        .col-md-3
+            .panel.panel-default
+                .panel-heading
+                        h3.panel-title Users Online
+                .panel-body
+                    #chatUsers
+
+        .col-md-3
+            .panel.panel-default
+                .panel-heading
+                        h3.panel-title My Cam
+                .panel-body
+                    .row
+                        .col-md-12
+                            .thumbnail
+                                video#videoElement(autoplay="true")
+                            .thumbnail#photoContainer
+                                canvas#photoElement(width='640',height='480')
+                              .caption
+                                h3 Efectos Cam
+                                button#snap.btn.btn-primary 
+                                    i.fa.fa-camera
+                                    | Snap
+                             
+                             .pager
+                                li.previous
+                                    a#btPageBack 
+                                        i.fa.fa-arrow-circle-left.fa-2x
+                                li.next
+                                    a#btPageNext 
+                                        i.fa.fa-arrow-circle-right.fa-2x
+
+    #dialog-form(title='Create new user')
+        p.validateTips All form fields are required.
+          form
+            fieldset
+              label.col-sm-3(for='name') Name
+              input#name.text.ui-widget-content.ui-corner-all.col-sm-8(type='text', name='name',placeholder='Your Name')
+            fieldset
+              label.col-sm-3(for='email') Email
+              input#email.text.ui-widget-content.ui-corner-all.col-sm-8(type='text', name='email', value='',placeholder='email@webmail.com')
+            fieldset
+              label.col-sm-3(for='password') Password
+              input#password.text.ui-widget-content.ui-corner-all.col-sm-8(type='password', name='password', value='',placeholder='Password')
+
+block scripts
+    script(type="text/javascript", src="js/index.js")

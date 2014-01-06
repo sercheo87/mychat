@@ -3,44 +3,212 @@
 	{
 		"selected_items":
 		[
+			[
+				"bt",
+				"btn-primary"
+			],
+			[
+				"bu",
+				"button"
+			],
+			[
+				"cl",
+				"click	click"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"pag",
+				"page-header"
+			],
+			[
+				"btn",
+				"btn-lg"
+			],
+			[
+				"pa",
+				"panel"
+			],
+			[
+				"ro",
+				"row"
+			],
+			[
+				"col",
+				"col-md-"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"pane",
+				"panel-title"
+			],
+			[
+				"pan",
+				"panel-body"
+			],
+			[
+				"lin",
+				"link"
+			],
+			[
+				"bootst",
+				"bootstrapPath"
+			],
+			[
+				"pat",
+				"path.join();"
+			],
+			[
+				"title",
+				"panel-title"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/C/projects/advanced-chat.git/room.js",
+			"file": "views/layout.jade",
 			"settings":
 			{
-				"buffer_size": 1069,
-				"line_ending": "Unix"
+				"buffer_size": 2608,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/projects/advanced-chat.git/public/index.html",
+			"file": "views/index.jade",
 			"settings":
 			{
-				"buffer_size": 3892,
-				"line_ending": "Unix"
+				"buffer_size": 2462,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/js/video.js",
+			"settings":
+			{
+				"buffer_size": 3518,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "stylesheets/style.less",
+			"settings":
+			{
+				"buffer_size": 331,
+				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "Packages/User/npm.sublime-build",
 	"command_palette":
 	{
-		"height": 310.0,
+		"height": 265.0,
 		"selected_items":
 		[
+			[
+				"func",
+				"Snippet: function"
+			],
+			[
+				"doc",
+				"Snippet: document.ready - $(function()"
+			],
 			[
 				"ins",
 				"Package Control: Install Package"
 			],
 			[
-				"vi",
-				"View In Browser"
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"scr",
+				"Snippet: script()"
+			],
+			[
+				"nav",
+				"Snippet: bst-navbar"
+			],
+			[
+				"navb",
+				"Snippet: bst-navbar-basic"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"scri",
+				"Snippet: script()"
+			],
+			[
+				"lin",
+				"Snippet: link()"
+			],
+			[
+				"butt",
+				"Snippet: button()"
+			],
+			[
+				"scrip",
+				"Snippet: script()"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"iden",
+				"Indentation: Reindent Lines"
 			],
 			[
 				"re",
 				"Indentation: Reindent Lines"
+			],
+			[
+				"i",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"link",
+				"Snippet: link()"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"Snippet: req",
+				"Snippet: require"
+			],
+			[
+				"http",
+				"Snippet: Snippet: HTTPS Get"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"vi",
+				"View In Browser"
 			],
 			[
 				"rein",
@@ -55,19 +223,11 @@
 				"Snippet: html"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
 				"INSTA",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 416.0
 	},
 	"console":
 	{
@@ -88,24 +248,65 @@
 	},
 	"file_history":
 	[
-		"/C/Lupo_PenSuite_Full/MyApps/sublime/Data/Packages/User/node-dev.sublime-build",
+		"/C/Lupo_PenSuite_Full/MyApps/sublime/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/Lupo_PenSuite_Full/MyApps/sublime/Data/Packages/User/Preferences.sublime-settings",
+		"/C/Lupo_PenSuite_Full/MyApps/sublime/Data/Packages/User/SyntaxMgr.sublime-settings",
+		"/C/projects/mychat.git/public/js/videos.js",
+		"/C/projects/chatNodeJSSocketIO.git/app.js",
 		"/C/projects/mychat.git/app.js",
+		"/C/projects/mychat.git/public/js/functions.js",
+		"/C/projects/mychat.git/public/js/index.js",
+		"/C/projects/mychat.git/views/index.jade",
+		"/C/projects/chatNodeJSSocketIO.git/public/javascripts/functions.js",
+		"/C/projects/node-raspicam.git/eg/photo.js",
+		"/C/projects/node-raspicam.git/eg/video.js",
+		"/C/projects/jlmonteagudo-cam.git/public/index.html",
+		"/C/projects/jlmonteagudo-cam.git/public/display.html",
+		"/C/projects/jlmonteagudo-cam.git/public/emit.html",
+		"/C/projects/jlmonteagudo-cam.git/views/layout.jade",
+		"/C/projects/jlmonteagudo-cam.git/views/index.jade",
+		"/C/projects/jlmonteagudo-cam.git/app.js",
+		"/C/projects/jlmonteagudo-cam.git/lib/service/streamingService.js",
+		"/C/projects/jlmonteagudo-cam.git/routes/index.js",
+		"/C/projects/mychat.git/views/layout.jade",
 		"/C/projects/advanced-chat.git/server.js",
+		"/C/projects/mychat.git/components/jquery-ui/css/custom-theme/jquery-ui-1.10.3.custom.css",
+		"/C/projects/mychat.git/stylesheets/style.less",
+		"/C/Users/sergio/Downloads/jquery-ui-1.10.3.custom/index.html",
+		"/C/projects/mychat.git/components/jquery-ui/css/custom-theme/style.min.css",
+		"/C/projects/mychat.git/components/jquery-ui-1.10.3/jquery-ui.css",
+		"/C/projects/mychat.git/components/jquery-ui-1.10.3/themes/smoothness/jquery-ui-1.10.3.custom.css",
+		"/C/projects/mychat.git/public/js/session-manager.js",
+		"/C/projects/mychat.git/components/font-awesome/less/core.less",
+		"/C/projects/mychat.git/components/font-awesome/less/path.less",
+		"/C/projects/mychat.git/components/font-awesome/less/variables.less",
+		"/C/projects/mychat.git/node_modules/twitter-bootstrap-3.0.0/less/variables.less",
+		"/C/projects/mychat.git/public/js/script.js",
+		"/C/projects/chatNodeJSSocketIO.git/views/layout.jade",
+		"/C/projects/mychat.git/public/css/style.css",
+		"/C/projects/chatNodeJSSocketIO.git/views/index.jade",
+		"/C/Lupo_PenSuite_Full/MyApps/sublime/Data/Packages/User/JSON.sublime-settings",
+		"/C/projects/demo/app.js",
+		"/C/projects/mychat.git/routes/index.js",
+		"/C/projects/demo/views/index.jade",
+		"/C/projects/demo/routes/index.js",
+		"/C/projects/demo/package.json",
+		"/C/projects/mychat.git/package.json",
+		"/C/projects/mychat.git/node_modules/twitter-bootstrap-3.0.0/less/bootstrap.less",
+		"/C/projects/mychat.git/public/css/style.less",
+		"/C/projects/demo/views/layout.jade",
 		"/C/projects/advanced-chat.git/room.js",
+		"/C/Lupo_PenSuite_Full/MyApps/sublime/Data/Packages/User/node-dev.sublime-build",
 		"/C/projects/advanced-chat.git/public/index.html",
 		"/C/projects/advanced-chat.git/public/js/client.js",
 		"/C/Lupo_PenSuite_Full/MyApps/sublime/Data/Packages/User/npm.sublime-build",
-		"/C/projects/mychat.git/views/index.jade",
-		"/C/projects/mychat.git/views/layout.jade",
 		"/C/Lupo_PenSuite_Full/MyApps/sublime/Data/Packages/User/View In Browser.sublime-settings",
 		"/C/Lupo_PenSuite_Full/MyApps/sublime/Data/Packages/View In Browser/View In Browser.sublime-settings",
-		"/C/Lupo_PenSuite_Full/MyApps/sublime/Data/Packages/User/Preferences.sublime-settings",
 		"/C/projects/demo.html",
 		"/C/Lupo_PenSuite_Full/MyApps/sublime/Data/Packages/User/Nodejs.sublime-settings",
 		"/C/Lupo_PenSuite_Full/MyApps/sublime/Data/Local/node-dev.sublime-build",
 		"/C/Lupo_PenSuite_Full/MyApps/sublime/Data/Packages/Nodejs/Nodejs.sublime-settings",
-		"/C/Lupo_PenSuite_Full/MyApps/sublime/Data/Packages/LiveReload/LiveReload.sublime-settings",
-		"/C/Lupo_PenSuite_Full/MyApps/sublime/Data/Packages/Default/Preferences.sublime-settings"
+		"/C/Lupo_PenSuite_Full/MyApps/sublime/Data/Packages/LiveReload/LiveReload.sublime-settings"
 	],
 	"find":
 	{
@@ -113,7 +314,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
 		]
@@ -123,6 +324,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tab",
+			": 2",
+			"2",
+			");\n",
+			"updateSidebarUsers",
+			"isEmptyObject",
+			"joinserver",
+			"loginUser",
+			".ui-state-error",
+			".ui-widget-header .ui-icon",
+			"images",
+			"ima",
+			"sessionStorage",
+			"manageSessions",
+			" \n",
+			"FontAwesome",
+			"\"",
 			"3000",
 			"192",
 			"space"
@@ -133,6 +351,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"'"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -143,67 +362,124 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/projects/advanced-chat.git/room.js",
+					"file": "views/layout.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1069,
+						"buffer_size": 2608,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								389,
-								389
+								2066,
+								2066
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": -0.0,
-						"translation.y": 238.0,
+						"translation.x": 0.0,
+						"translation.y": 145.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2462,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								939,
+								953
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 142.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/C/projects/advanced-chat.git/public/index.html",
-					"semi_transient": true,
+					"buffer": 2,
+					"file": "public/js/video.js",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3892,
+						"buffer_size": 3518,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								988,
-								988
+								1828,
+								1828
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1004.0,
+						"translation.y": 404.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "stylesheets/style.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								218,
+								218
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -215,7 +491,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -251,7 +527,7 @@
 	"project": "mychat.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -285,7 +561,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 222.0,
+	"side_bar_width": 250.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -1,0 +1,51 @@
+doctype html
+html
+    head
+        title First Chat #{title}
+        meta(name='viewport',content='width=device-width,initial-scale=1.0')
+        link(rel="stylesheet", type="text/css", href="components/font-awesome/css/font-awesome.min.css")
+        link(rel="stylesheet", type="text/css", href="bootstrap/css/bootstrap.min.css")
+        link(rel="stylesheet", type="text/css", href="bootstrap/css/bootstrap-theme.min.css")
+        link(rel="stylesheet", type="text/css", href="components/jquery-ui/css/custom-theme/jquery-ui-1.10.3.custom.css")
+        link(rel='stylesheet', type='text/css', href='css/style.css')
+    body
+
+        nav(role="navigation").navbar.navbar-default
+            .navbar-header
+                button(type="button", data-toggle="collapse", data-target=".navbar-ex1-collapse").navbar-toggle
+                    span.sr-only Toggle navigation
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+                a(href="#" ).navbar-brand Title
+            .collapse.navbar-collapse.navbar-ex1-collapse
+                ul.nav.navbar-nav 
+                    li.active: a(href="#") Link
+                    li: a(href="#") Link
+                form(role="search").navbar-form.navbar-left
+                    .form-group 
+                        input(type="text", placeholder="Search").form-control
+                    button(type="submit").btn.btn-default Submit
+                ul.nav.navbar-nav.navbar-right
+                    li: a(href="#") Link
+                    li.dropdown
+                        a(href="#", data-toggle="dropdown").dropdown-toggle Dropdown <b class="caret"></b>
+                        ul.dropdown-menu
+                            li: a(href="#") Action
+                            li: a(href="#") Another action
+                            li: a(href="#") Something else here
+                            li: a(href="#") Separated link
+                        
+        .container
+            #messages.alert.alert-danger
+                
+            block content
+
+        script(type='text/javascript', src='jquery/jquery.min.js')
+        script(type='text/javascript', src='bootstrap/js/bootstrap.min.js')
+        script(type="text/javascript", src="socket.io/socket.io.js")
+        script(type="text/javascript", src="js/functions.js")
+        script(type="text/javascript", src="js/video.js")
+        script(type="text/javascript", src="components/jquery-ui/js/jquery-ui-1.10.3.custom.js")
+        script(type="text/javascript", src="components/jquery-ui/i18n/jquery-ui-i18n.js")
+        block scripts
